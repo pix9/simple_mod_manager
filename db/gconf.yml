@@ -1,0 +1,7 @@
+nier-testing2:
+  display name: "Neir:Automata-testing2"
+  steam id: "524220"
+  mod_src: "mods/neir_automata/"
+  mod_root: "~/neir_automata-testing/data/"
+  mod_dir: "pl"
+
