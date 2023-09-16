@@ -119,3 +119,10 @@ class simplemod:
             shutil.copy2(f, final_mod_dest)
         shutil.rmtree("m_temp")
 
+    def clean_mods_dir(self,game):
+        mdir_data = self.get_mod_dest(game)
+        final_mod_dest = str(mdir_data["root"].replace("~",self.steam_path))+str(mdir_data["moddir"])
+        #print(final_mod_dest)
+        shutil.rmtree(final_mod_dest)
+        os.mkdir(final_mod_dest)
+

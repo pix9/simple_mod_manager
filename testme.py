@@ -26,3 +26,6 @@ mod = "2btoa2.zip"
 
 print("Deploying mod \"2btoa2.zip\"")
 my_mod.deploy_mod(mod,my_game)
+
+print("Testing the removal of mods deployed")
+my_mod.clean_mods_dir(my_game)
