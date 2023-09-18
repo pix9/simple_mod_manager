@@ -16,10 +16,6 @@ my_game = "nier-testing2"
 
 print("Listing mods available for game \""+str(my_game)+"\"")
 mods = my_mod.list_mods_files(my_game)
-c = 1
-for x in mods:
-    print(str(c)+" "+str(x))
-    c = c + 1
 
 print("Please ensure you've created a testing directory \"~/neir_automata-testing/data/\" for this, if you know what your are doing you can update \"gconf\"." )
 mod = "2btoa2.zip"

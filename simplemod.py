@@ -36,6 +36,11 @@ class simplemod:
         self.get_src(game)
         mdir = self.get_src(game)
         mlist = os.listdir(mdir)
+        print("\nPlease find below list of mods.")
+        c=1
+        for f in mlist:
+            print(str(c)+".  "+str(f))
+            c = c + 1
         return mlist
 
     def list_mods_files_root(self,game):
